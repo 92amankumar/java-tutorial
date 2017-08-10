@@ -7,6 +7,7 @@ public class JavaPassbyValTest{
 		b = temp;
 	}
 	void badSwap(AnyClass a, AnyClass b){
+		a.setA(a);
 		AnyClass temp = a;
 		a = b;
 		b = temp;
