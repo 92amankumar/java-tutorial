@@ -7,7 +7,8 @@ public class JavaPassbyValTest{
 		b = temp;
 	}
 	void badSwap(AnyClass a, AnyClass b){
-		a.setA(a);
+		a.setA(a.getA()+100);
+		a.setB(a.getB()+100);
 		AnyClass temp = a;
 		a = b;
 		b = temp;

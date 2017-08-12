@@ -28,7 +28,7 @@ public class ReferenceTest{
 		
 		ref.badSwap(obj1, obj2);
 		
-		assertEquals(obj1, clone1);
-		assertEquals(obj2, clone2);
+		assertNotEquals(obj1, clone1);
+		assertNotEquals(obj2, clone2);
 	}
 }
