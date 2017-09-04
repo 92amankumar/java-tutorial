@@ -22,13 +22,9 @@ public class ReferenceTest{
 		AnyClass clone1 = obj1.clone();
 		assertEquals(obj1, clone1);
 		
-		AnyClass obj2 = new AnyClass(a+10, b+10);
-		AnyClass clone2 = obj2.clone();
-		assertEquals(obj2, clone2);
 		
-		ref.badSwap(obj1, obj2);
+		ref.badSwap(obj1, null);
 		
 		assertNotEquals(obj1, clone1);
-		assertNotEquals(obj2, clone2);
 	}
 }
