@@ -31,10 +31,8 @@ class Producer implements Runnable{
 			}
 		}
 	}
-	
 }
 class Consumer implements Runnable{
-
 	private List<Integer> sharedObj = new ArrayList<>();
 	
 	public Consumer(List<Integer> sharedObj) {
@@ -61,7 +59,6 @@ class Consumer implements Runnable{
 			}
 		}
 	}
-	
 }
 public class ProducerConsumerWaitNotify {
 	public static void main(String[] args) {

@@ -2,7 +2,7 @@ package com.thread;
 
 import java.util.LinkedList;
 import java.util.Queue;
-
+//happens-before relationship
 class ProducerConsumer {
 	private int value = 0;
 	private boolean flag = false;

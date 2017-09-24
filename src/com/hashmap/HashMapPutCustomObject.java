@@ -14,6 +14,7 @@ public class HashMapPutCustomObject {
 		map.put(pojo2, 20);
 		System.out.println(map.size());
 		System.out.println(map.get(new CustomPOJO(10, "ABC")));
+		System.out.println(map.get(pojo2));
 	}
 }
 
